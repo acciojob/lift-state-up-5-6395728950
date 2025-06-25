@@ -7,9 +7,9 @@ const App = () => {
   const [islogin,setislogin] = useState(false);
   return (
     <div>
-       <h1>Parent Componet</h1>
-        {
-          islogin ? <p>You are logged in!</p>:<Login setislogin={setislogin}></Login>
+         {
+          islogin ? (       <h1>Parent Componet</h1>
+):<Login setislogin={setislogin}></Login>
         }
     </div>
   )
